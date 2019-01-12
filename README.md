@@ -2,6 +2,15 @@
 JISキーボードでは動かないデフォルトキーバインドをJISキーボードに合わせて再定義するプラグイン  
 (環境依存が強いため、記述内容・動作は保証しない)
 
+## アプリケーションによる違い
+
+iTermでは、AltをMeta as Escに設定できるため本プラグインは必要ない。  
+(Preference > Profiles > Keys　画面下部チェックボックス)
+
+
+HyperやVSCodeのTerminalでは役に立つ可能性あり。  
+(VSCodeでのMeta使用は `"terminal.integrated.macOptionIsMeta": true`)
+
 ## 仕様
 
 JISキーボードでは動かないデフォルトキーバインドをJISキーボードに合わせて再定義する
